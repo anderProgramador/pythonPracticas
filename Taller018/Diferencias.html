@@ -1,0 +1,84 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type"
+          content="text/html; charset=utf-8" />
+    <title></title>
+    <style type="text/css">
+        table.diff {font-family:Courier; border:medium;}
+        .diff_header {background-color:#e0e0e0}
+        td.diff_header {text-align:right}
+        .diff_next {background-color:#c0c0c0}
+        .diff_add {background-color:#aaffaa}
+        .diff_chg {background-color:#ffff77}
+        .diff_sub {background-color:#ffaaaa}
+    </style>
+</head>
+
+<body>
+    
+    <table class="diff" id="difflib_chg_to2__top"
+           cellspacing="0" cellpadding="0" rules="groups" >
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <colgroup></colgroup> <colgroup></colgroup> <colgroup></colgroup>
+        <thead><tr><th class="diff_next"><br /></th><th colspan="2" class="diff_header">ComprimirArchivos_zipfile.py</th><th class="diff_next"><br /></th><th colspan="2" class="diff_header">ComprimirArchivos_tarfile.py</th></tr></thead>
+        <tbody>
+            <tr><td class="diff_next" id="difflib_chg_to2__0"><a href="#difflib_chg_to2__1">n</a></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"><a href="#difflib_chg_to2__1">n</a></td><td class="diff_header" id="to2_1">1</td><td nowrap="nowrap"><span class="diff_add">#&nbsp;-*-&nbsp;coding:&nbsp;utf-8&nbsp;-*-</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to2_2">2</td><td nowrap="nowrap"><span class="diff_add">"""</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to2_3">3</td><td nowrap="nowrap"><span class="diff_add">Created&nbsp;on&nbsp;Tue&nbsp;Jul&nbsp;&nbsp;7&nbsp;07:15:53&nbsp;2020</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to2_4">4</td><td nowrap="nowrap"><span class="diff_add">&nbsp;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to2_5">5</td><td nowrap="nowrap"><span class="diff_add">@author:&nbsp;Ander</span></td></tr>
+            <tr><td class="diff_next" id="difflib_chg_to2__1"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to2_6">6</td><td nowrap="nowrap"><span class="diff_add">"""</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to2_7">7</td><td nowrap="nowrap"><span class="diff_add">&nbsp;</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from2_1">1</td><td nowrap="nowrap">import&nbsp;<span class="diff_chg">zip</span>file</td><td class="diff_next"></td><td class="diff_header" id="to2_8">8</td><td nowrap="nowrap">import&nbsp;<span class="diff_chg">tar</span>file</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from2_2">2</td><td nowrap="nowrap">import&nbsp;os</td><td class="diff_next"></td><td class="diff_header" id="to2_9">9</td><td nowrap="nowrap">import&nbsp;os</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from2_3">3</td><td nowrap="nowrap"></td><td class="diff_next"></td><td class="diff_header" id="to2_10">10</td><td nowrap="nowrap"></td></tr>
+            <tr><td class="diff_next" id="difflib_chg_to2__2"><a href="#difflib_chg_to2__2">n</a></td><td class="diff_header" id="from2_4">4</td><td nowrap="nowrap">print("Demo&nbsp;1<span class="diff_chg">1</span>:&nbsp;Comprimir&nbsp;archivos&nbsp;usando&nbsp;la&nbsp;librería&nbsp;<span class="diff_chg">zip</span>file")</td><td class="diff_next"><a href="#difflib_chg_to2__2">n</a></td><td class="diff_header" id="to2_11">11</td><td nowrap="nowrap">print("Demo&nbsp;1<span class="diff_chg">2</span>:&nbsp;Comprimir&nbsp;archivos&nbsp;usando&nbsp;la&nbsp;librería&nbsp;<span class="diff_chg">tar</span>file")</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from2_5">5</td><td nowrap="nowrap">directorioOrigen&nbsp;=&nbsp;input("Ingresa&nbsp;directorio&nbsp;con&nbsp;los&nbsp;archivos&nbsp;a&nbsp;comprimir:&nbsp;")</td><td class="diff_next"></td><td class="diff_header" id="to2_12">12</td><td nowrap="nowrap">directorioOrigen&nbsp;=&nbsp;input("Ingresa&nbsp;directorio&nbsp;con&nbsp;los&nbsp;archivos&nbsp;a&nbsp;comprimir:&nbsp;")</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from2_6">6</td><td nowrap="nowrap">if(os.path.isdir(directorioOrigen)):</td><td class="diff_next"></td><td class="diff_header" id="to2_13">13</td><td nowrap="nowrap">if(os.path.isdir(directorioOrigen)):</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from2_7">7</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;archivos&nbsp;=&nbsp;os.listdir(directorioOrigen)</td><td class="diff_next"></td><td class="diff_header" id="to2_14">14</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;archivos&nbsp;=&nbsp;os.listdir(directorioOrigen)</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from2_8">8</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;#archivoComprimir&nbsp;=&nbsp;"C:/Users/Ander/Documents/Python&nbsp;Scripts/Clases/Practicas/Archivos/Comprimidos/Comprimidos.zip"</td><td class="diff_next"></td><td class="diff_header" id="to2_15">15</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;#archivoComprimir&nbsp;=&nbsp;"C:/Users/Ander/Documents/Python&nbsp;Scripts/Clases/Practicas/Archivos/Comprimidos/Comprimidos.zip"</td></tr>
+            <tr><td class="diff_next" id="difflib_chg_to2__3"><a href="#difflib_chg_to2__3">n</a></td><td class="diff_header" id="from2_9">9</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;archivoComprimir&nbsp;=&nbsp;"C:/Users/Ander/Documents/Python&nbsp;Scripts/Clases/Practicas/Archivos/Comprimidos/Comp2.<span class="diff_chg">zip</span>"</td><td class="diff_next"><a href="#difflib_chg_to2__3">n</a></td><td class="diff_header" id="to2_16">16</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;archivoComprimir&nbsp;=&nbsp;"C:/Users/Ander/Documents/Python&nbsp;Scripts/Clases/Practicas/Archivos/Comprimidos/Comp2.<span class="diff_chg">tar</span>"</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from2_10">10</td><td nowrap="nowrap"><span class="diff_sub">&nbsp;&nbsp;&nbsp;&nbsp;zipC&nbsp;=&nbsp;zipfile.ZipFile(archivoComprimir,"w",zipfile.ZIP_DEFLATED)</span></td><td class="diff_next"></td><td class="diff_header" id="to2_17">17</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;tarC&nbsp;=&nbsp;tarfile.open(archivoComprimir,"w")</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from2_11">11</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;for&nbsp;nombre&nbsp;in&nbsp;archivos:</td><td class="diff_next"></td><td class="diff_header" id="to2_18">18</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;for&nbsp;nombre&nbsp;in&nbsp;archivos:</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from2_12">12</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;archivo&nbsp;=&nbsp;os.path.join(directorioOrigen,nombre)</td><td class="diff_next"></td><td class="diff_header" id="to2_19">19</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;archivo&nbsp;=&nbsp;os.path.join(directorioOrigen,nombre)</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from2_13">13</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("Comprimiendo:&nbsp;",&nbsp;nombre)</td><td class="diff_next"></td><td class="diff_header" id="to2_20">20</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;print("Comprimiendo:&nbsp;",&nbsp;nombre)</td></tr>
+            <tr><td class="diff_next" id="difflib_chg_to2__4"><a href="#difflib_chg_to2__4">n</a></td><td class="diff_header" id="from2_14">14</td><td nowrap="nowrap"><span class="diff_sub">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;zipC.write(archivo)</span></td><td class="diff_next"><a href="#difflib_chg_to2__4">n</a></td><td class="diff_header" id="to2_21">21</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tarC.add(archivo)</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from2_15">15</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff_chg">zip</span>C.close()</td><td class="diff_next"></td><td class="diff_header" id="to2_22">22</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff_chg">tar</span>C.close()</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from2_16">16</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;print("Se&nbsp;comprimio:&nbsp;{0}".format(len(archivos)))</td><td class="diff_next"></td><td class="diff_header" id="to2_23">23</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;print("Se&nbsp;comprimio:&nbsp;{0}".format(len(archivos)))</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from2_17">17</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;input("Pulsa&nbsp;enter&nbsp;para&nbsp;Descomprimir")</td><td class="diff_next"></td><td class="diff_header" id="to2_24">24</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;input("Pulsa&nbsp;enter&nbsp;para&nbsp;Descomprimir")</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from2_18">18</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;rutaDescomprimir&nbsp;=&nbsp;"../Archivos/Descomprimidos"</td><td class="diff_next"></td><td class="diff_header" id="to2_25">25</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;rutaDescomprimir&nbsp;=&nbsp;"../Archivos/Descomprimidos"</td></tr>
+            <tr><td class="diff_next" id="difflib_chg_to2__5"><a href="#difflib_chg_to2__5">n</a></td><td class="diff_header" id="from2_19">19</td><td nowrap="nowrap"><span class="diff_sub">&nbsp;&nbsp;&nbsp;&nbsp;zipD&nbsp;=&nbsp;zipfile.ZipFile(archivoComprimir,"r",zipfile.ZIP_DEFLATED)</span></td><td class="diff_next"><a href="#difflib_chg_to2__5">n</a></td><td class="diff_header" id="to2_26">26</td><td nowrap="nowrap"><span class="diff_add">&nbsp;&nbsp;&nbsp;&nbsp;tarD&nbsp;=&nbsp;tarfile.open(archivoComprimir,"r")</span></td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from2_20">20</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff_chg">zip</span>D.extractall(rutaDescomprimir)</td><td class="diff_next"></td><td class="diff_header" id="to2_27">27</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff_chg">tar</span>D.extractall(rutaDescomprimir)</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from2_21">21</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;listaComprimida&nbsp;=&nbsp;<span class="diff_chg">zip</span>D.name<span class="diff_sub">li</span>s<span class="diff_sub">t</span>()</td><td class="diff_next"></td><td class="diff_header" id="to2_28">28</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;listaComprimida&nbsp;=&nbsp;<span class="diff_chg">tar</span>D.<span class="diff_add">get</span>names()</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from2_22">22</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;#for&nbsp;archivo&nbsp;in&nbsp;listaComprimida:</td><td class="diff_next"></td><td class="diff_header" id="to2_29">29</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;#for&nbsp;archivo&nbsp;in&nbsp;listaComprimida:</td></tr>
+            <tr><td class="diff_next" id="difflib_chg_to2__6"></td><td class="diff_header" id="from2_23">23</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;#&nbsp;&nbsp;&nbsp;&nbsp;print("Descomprimiendo&nbsp;",&nbsp;os.path.basename(archivo))</td><td class="diff_next"></td><td class="diff_header" id="to2_30">30</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;#&nbsp;&nbsp;&nbsp;&nbsp;print("Descomprimiendo&nbsp;",&nbsp;os.path.basename(archivo))</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to2__6">n</a></td><td class="diff_header" id="from2_24">24</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff_chg">zip</span>D.close()</td><td class="diff_next"><a href="#difflib_chg_to2__6">n</a></td><td class="diff_header" id="to2_31">31</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;<span class="diff_chg">tar</span>D.close()</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from2_25">25</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;print("Se&nbsp;descomprimio:&nbsp;{0}".format(len(listaComprimida)))</td><td class="diff_next"></td><td class="diff_header" id="to2_32">32</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;print("Se&nbsp;descomprimio:&nbsp;{0}".format(len(listaComprimida)))</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from2_26">26</td><td nowrap="nowrap">else:</td><td class="diff_next"></td><td class="diff_header" id="to2_33">33</td><td nowrap="nowrap">else:</td></tr>
+            <tr><td class="diff_next"></td><td class="diff_header" id="from2_27">27</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;print("No&nbsp;existe&nbsp;el&nbsp;Directorio")</td><td class="diff_next"></td><td class="diff_header" id="to2_34">34</td><td nowrap="nowrap">&nbsp;&nbsp;&nbsp;&nbsp;print("No&nbsp;existe&nbsp;el&nbsp;Directorio")</td></tr>
+            <tr><td class="diff_next"><a href="#difflib_chg_to2__top">t</a></td><td class="diff_header"></td><td nowrap="nowrap"></td><td class="diff_next"><a href="#difflib_chg_to2__top">t</a></td><td class="diff_header" id="to2_35">35</td><td nowrap="nowrap"><span class="diff_add">&nbsp;</span></td></tr>
+        </tbody>
+    </table>
+    <table class="diff" summary="Legends">
+        <tr> <th colspan="2"> Legends </th> </tr>
+        <tr> <td> <table border="" summary="Colors">
+                      <tr><th> Colors </th> </tr>
+                      <tr><td class="diff_add">&nbsp;Added&nbsp;</td></tr>
+                      <tr><td class="diff_chg">Changed</td> </tr>
+                      <tr><td class="diff_sub">Deleted</td> </tr>
+                  </table></td>
+             <td> <table border="" summary="Links">
+                      <tr><th colspan="2"> Links </th> </tr>
+                      <tr><td>(f)irst change</td> </tr>
+                      <tr><td>(n)ext change</td> </tr>
+                      <tr><td>(t)op</td> </tr>
+                  </table></td> </tr>
+    </table>
+</body>
+
+</html>

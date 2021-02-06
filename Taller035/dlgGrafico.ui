@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dlgGrafico</class>
+ <widget class="QDialog" name="dlgGrafico">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="lblTipoGrafico">
+   <property name="geometry">
+    <rect>
+     <x>52</x>
+     <y>12</y>
+     <width>266</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Selecciona el tipo de Grafico</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cboTipoGrafico">
+   <property name="geometry">
+    <rect>
+     <x>52</x>
+     <y>49</y>
+     <width>261</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblCategoria">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>12</y>
+     <width>236</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Selecciona una Categoria</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cboCategoria">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>49</y>
+     <width>241</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnGrabar">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>40</y>
+     <width>150</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Grabar</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="imgGrafico" native="true">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>110</y>
+     <width>961</width>
+     <height>671</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
